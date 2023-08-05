@@ -17,3 +17,25 @@
 2023-08-05 13:29:17.083 INFO  c.xujiajun.train.member.config.MemberApplication  :57   [32m                  [0;39m Started MemberApplication in 5.384 seconds (process running for 6.22)
 2023-08-05 13:29:17.087 INFO  c.xujiajun.train.member.config.MemberApplication  :22   [32m                  [0;39m 启动成功！！
 2023-08-05 13:29:17.087 INFO  c.xujiajun.train.member.config.MemberApplication  :23   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2023-08-05 13:47:10.785 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-05 13:47:10.785 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-08-05 13:47:10.786 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2023-08-05 14:38:15.716 INFO  c.xujiajun.train.member.config.MemberApplication  :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.7 with PID 1880 (D:\my_maven_test\train\member\target\classes started by xujj in D:\my_maven_test\train)
+2023-08-05 14:38:15.719 INFO  c.xujiajun.train.member.config.MemberApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-08-05 14:38:15.769 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-05 14:38:15.770 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-05 14:38:16.442 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=a1c63f2a-71b2-3a2e-82be-283d66126288
+2023-08-05 14:38:17.112 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-08-05 14:38:17.122 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-08-05 14:38:17.123 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-08-05 14:38:17.124 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-08-05 14:38:17.198 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-08-05 14:38:17.198 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1427 ms
+2023-08-05 14:38:17.614 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-08-05 14:38:18.851 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2023-08-05 14:38:18.890 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-08-05 14:38:18.915 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2023-08-05 14:38:20.156 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2023-08-05 14:38:20.164 INFO  c.xujiajun.train.member.config.MemberApplication  :57   [32m                  [0;39m Started MemberApplication in 6.125 seconds (process running for 6.82)
+2023-08-05 14:38:20.166 INFO  c.xujiajun.train.member.config.MemberApplication  :22   [32m                  [0;39m 启动成功！！
+2023-08-05 14:38:20.166 INFO  c.xujiajun.train.member.config.MemberApplication  :23   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
