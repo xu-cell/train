@@ -1270,3 +1270,94 @@ Consider the following:
 2023-08-05 15:40:57.738 INFO  com.xujiajun.train.common.aspect.LogAspect        :72   [32m                  [0;39m 请求参数: []
 2023-08-05 15:40:57.739 INFO  com.xujiajun.train.common.aspect.LogAspect        :84   [32m                  [0;39m 返回结果: "Hello!!!!!"
 2023-08-05 15:40:57.739 INFO  com.xujiajun.train.common.aspect.LogAspect        :85   [32m                  [0;39m ------------- 结束 耗时：57 ms -------------
+2023-08-05 16:05:27.366 INFO  c.xujiajun.train.member.config.MemberApplication  :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.7 with PID 9572 (D:\my_maven_test\train\member\target\classes started by xujj in D:\my_maven_test\train)
+2023-08-05 16:05:27.370 INFO  c.xujiajun.train.member.config.MemberApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-08-05 16:05:27.413 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-05 16:05:27.413 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-05 16:05:28.049 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=a1c63f2a-71b2-3a2e-82be-283d66126288
+2023-08-05 16:05:28.750 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-08-05 16:05:28.760 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-08-05 16:05:28.761 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-08-05 16:05:28.762 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-08-05 16:05:28.848 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-08-05 16:05:28.848 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1434 ms
+2023-08-05 16:05:29.361 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-08-05 16:05:30.686 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2023-08-05 16:05:30.731 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-08-05 16:05:30.751 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2023-08-05 16:05:31.978 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2023-08-05 16:05:31.988 INFO  c.xujiajun.train.member.config.MemberApplication  :57   [32m                  [0;39m Started MemberApplication in 6.281 seconds (process running for 6.991)
+2023-08-05 16:05:31.990 INFO  c.xujiajun.train.member.config.MemberApplication  :22   [32m                  [0;39m 启动成功！！
+2023-08-05 16:05:31.990 INFO  c.xujiajun.train.member.config.MemberApplication  :23   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2023-08-05 16:11:13.770 INFO  c.xujiajun.train.member.config.MemberApplication  :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.7 with PID 14264 (D:\my_maven_test\train\member\target\classes started by xujj in D:\my_maven_test\train)
+2023-08-05 16:11:13.773 INFO  c.xujiajun.train.member.config.MemberApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-08-05 16:11:13.812 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-05 16:11:13.812 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-05 16:11:14.310 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=a1c63f2a-71b2-3a2e-82be-283d66126288
+2023-08-05 16:11:14.886 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-08-05 16:11:14.895 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-08-05 16:11:14.896 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-08-05 16:11:14.896 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-08-05 16:11:14.965 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-08-05 16:11:14.966 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1154 ms
+2023-08-05 16:11:15.490 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-08-05 16:11:16.770 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2023-08-05 16:11:16.808 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-08-05 16:11:16.829 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2023-08-05 16:11:18.053 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2023-08-05 16:11:18.059 INFO  c.xujiajun.train.member.config.MemberApplication  :57   [32m                  [0;39m Started MemberApplication in 5.926 seconds (process running for 6.582)
+2023-08-05 16:11:18.062 INFO  c.xujiajun.train.member.config.MemberApplication  :22   [32m                  [0;39m 启动成功！！
+2023-08-05 16:11:18.063 INFO  c.xujiajun.train.member.config.MemberApplication  :23   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2023-08-05 16:15:39.723 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-05 16:15:39.724 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-08-05 16:15:39.725 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2023-08-05 16:15:39.749 INFO  com.xujiajun.train.common.aspect.LogAspect        :48   [32m                  [0;39m ------------- 开始 -------------
+2023-08-05 16:15:39.749 INFO  com.xujiajun.train.common.aspect.LogAspect        :49   [32m                  [0;39m 请求地址: http://localhost:8001/member/hello GET
+2023-08-05 16:15:39.750 INFO  com.xujiajun.train.common.aspect.LogAspect        :50   [32m                  [0;39m 类名方法: com.xujiajun.train.member.controller.TestController.hello
+2023-08-05 16:15:39.750 INFO  com.xujiajun.train.common.aspect.LogAspect        :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-08-05 16:15:39.796 INFO  com.xujiajun.train.common.aspect.LogAspect        :72   [32m                  [0;39m 请求参数: []
+2023-08-05 16:15:39.797 INFO  com.xujiajun.train.common.aspect.LogAspect        :84   [32m                  [0;39m 返回结果: "Hello!!!!!"
+2023-08-05 16:15:39.798 INFO  com.xujiajun.train.common.aspect.LogAspect        :85   [32m                  [0;39m ------------- 结束 耗时：50 ms -------------
+2023-08-05 16:15:53.619 INFO  com.xujiajun.train.common.aspect.LogAspect        :48   [32m                  [0;39m ------------- 开始 -------------
+2023-08-05 16:15:53.620 INFO  com.xujiajun.train.common.aspect.LogAspect        :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2023-08-05 16:15:53.620 INFO  com.xujiajun.train.common.aspect.LogAspect        :50   [32m                  [0;39m 类名方法: com.xujiajun.train.member.controller.TestController.hello
+2023-08-05 16:15:53.620 INFO  com.xujiajun.train.common.aspect.LogAspect        :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-08-05 16:15:53.620 INFO  com.xujiajun.train.common.aspect.LogAspect        :72   [32m                  [0;39m 请求参数: []
+2023-08-05 16:15:53.620 INFO  com.xujiajun.train.common.aspect.LogAspect        :84   [32m                  [0;39m 返回结果: "Hello!!!!!"
+2023-08-05 16:15:53.620 INFO  com.xujiajun.train.common.aspect.LogAspect        :85   [32m                  [0;39m ------------- 结束 耗时：1 ms -------------
+2023-08-05 16:30:52.786 INFO  c.xujiajun.train.member.config.MemberApplication  :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.7 with PID 33268 (D:\my_maven_test\train\member\target\classes started by xujj in D:\my_maven_test\train)
+2023-08-05 16:30:52.790 INFO  c.xujiajun.train.member.config.MemberApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-08-05 16:30:52.831 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-05 16:30:52.831 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-05 16:30:53.380 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=a1c63f2a-71b2-3a2e-82be-283d66126288
+2023-08-05 16:30:53.906 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-08-05 16:30:53.915 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-08-05 16:30:53.915 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-08-05 16:30:53.915 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-08-05 16:30:53.979 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-08-05 16:30:53.980 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1148 ms
+2023-08-05 16:30:54.525 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-08-05 16:30:55.774 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2023-08-05 16:30:55.846 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-08-05 16:30:55.873 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2023-08-05 16:30:57.165 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2023-08-05 16:30:57.173 INFO  c.xujiajun.train.member.config.MemberApplication  :57   [32m                  [0;39m Started MemberApplication in 6.069 seconds (process running for 6.732)
+2023-08-05 16:30:57.175 INFO  c.xujiajun.train.member.config.MemberApplication  :22   [32m                  [0;39m 启动成功！！
+2023-08-05 16:30:57.175 INFO  c.xujiajun.train.member.config.MemberApplication  :23   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2023-08-05 16:31:08.645 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-05 16:31:08.645 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-08-05 16:31:08.647 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2023-08-05 16:31:08.671 INFO  com.xujiajun.train.common.aspect.LogAspect        :48   [32m                  [0;39m ------------- 开始 -------------
+2023-08-05 16:31:08.671 INFO  com.xujiajun.train.common.aspect.LogAspect        :49   [32m                  [0;39m 请求地址: http://localhost:8001/member/hello GET
+2023-08-05 16:31:08.672 INFO  com.xujiajun.train.common.aspect.LogAspect        :50   [32m                  [0;39m 类名方法: com.xujiajun.train.member.controller.TestController.hello
+2023-08-05 16:31:08.672 INFO  com.xujiajun.train.common.aspect.LogAspect        :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-08-05 16:31:08.714 INFO  com.xujiajun.train.common.aspect.LogAspect        :72   [32m                  [0;39m 请求参数: []
+2023-08-05 16:31:08.715 INFO  com.xujiajun.train.common.aspect.LogAspect        :84   [32m                  [0;39m 返回结果: "Hello!!!!!"
+2023-08-05 16:31:08.716 INFO  com.xujiajun.train.common.aspect.LogAspect        :85   [32m                  [0;39m ------------- 结束 耗时：46 ms -------------
+2023-08-05 16:32:11.486 INFO  com.xujiajun.train.common.aspect.LogAspect        :48   [32m                  [0;39m ------------- 开始 -------------
+2023-08-05 16:32:11.488 INFO  com.xujiajun.train.common.aspect.LogAspect        :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2023-08-05 16:32:11.488 INFO  com.xujiajun.train.common.aspect.LogAspect        :50   [32m                  [0;39m 类名方法: com.xujiajun.train.member.controller.TestController.hello
+2023-08-05 16:32:11.488 INFO  com.xujiajun.train.common.aspect.LogAspect        :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-08-05 16:32:11.488 INFO  com.xujiajun.train.common.aspect.LogAspect        :72   [32m                  [0;39m 请求参数: []
+2023-08-05 16:32:11.488 INFO  com.xujiajun.train.common.aspect.LogAspect        :84   [32m                  [0;39m 返回结果: "Hello!!!!!"
+2023-08-05 16:32:11.489 INFO  com.xujiajun.train.common.aspect.LogAspect        :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
