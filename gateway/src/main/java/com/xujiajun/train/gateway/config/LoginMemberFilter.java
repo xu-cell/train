@@ -24,7 +24,7 @@ public class LoginMemberFilter implements Ordered, GlobalFilter {
         if (path.contains("/admin")
                 || path.contains("/redis")
                 || path.contains("/hello")
-                || path.contains("/member/member/count")
+                || path.contains("/member/member/register")
                 || path.contains("/member/member/send-code")
                 || path.contains("/business/kaptcha")) {
             LOG.info("不需要登录验证：{}", path);
