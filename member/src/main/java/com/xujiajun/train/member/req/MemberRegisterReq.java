@@ -1,15 +1,27 @@
 package com.xujiajun.train.member.req;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import jakarta.validation.constraints.NotBlank;
 
 /**
  * @author xujj
  */
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
+
 public class MemberRegisterReq {
+    @NotBlank(message = "手机号不为空")
     private String mobile;
+
+    public String getMobile() {
+        return mobile;
+    }
+
+    public void setMobile(String mobile) {
+        this.mobile = mobile;
+    }
+
+    @Override
+    public String toString() {
+        return "MemberRegisterReq{" +
+                "mobile='" + mobile + '\'' +
+                '}';
+    }
 }
