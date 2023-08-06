@@ -1,9 +1,12 @@
 package com.xujiajun.train.member.service;
 
 import cn.hutool.core.collection.CollUtil;
+import com.xujiajun.train.common.exception.BusinessException;
+import com.xujiajun.train.common.exception.BusinessExceptionEnum;
 import com.xujiajun.train.member.domain.Member;
 import com.xujiajun.train.member.domain.MemberExample;
 import com.xujiajun.train.member.mapper.MemberMapper;
+import com.xujiajun.train.member.req.MemberRegisterReq;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -20,13 +23,14 @@ public class MemberService {
         return Math.toIntExact(memberMapper.countByExample(null));
     }
 
-    public Long register(String mobile) {
+    public Long register(MemberRegisterReq req) {
+        String mobile = req.getMobile();
         MemberExample memberExample = new MemberExample();
         memberExample.createCriteria().andMobileEqualTo(mobile);
 
         List<Member> list =  memberMapper.selectByExample(memberExample);
         if(CollUtil.isNotEmpty(list)) {
-             throw new RuntimeException("手机号已经被注册了");
+             throw new BusinessException(BusinessExceptionEnum.MEMBER_MOBILE_EXIST);
         }
 
         Member member = new Member();
