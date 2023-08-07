@@ -4982,3 +4982,5 @@ Caused by: java.lang.ClassNotFoundException: com.xujiajun.train.member.service.M
 2023-08-06 16:59:54.818 DEBUG c.xujiajun.train.member.mapper.MemberMapper.insert:137  [32m                  [0;39m <==    Updates: 1
 2023-08-06 16:59:54.819 INFO  com.xujiajun.train.common.aspect.LogAspect        :84   [32m                  [0;39m 返回结果: {"content":1688112653114937344,"success":true}
 2023-08-06 16:59:54.819 INFO  com.xujiajun.train.common.aspect.LogAspect        :85   [32m                  [0;39m ------------- 结束 耗时：406 ms -------------
+2023-08-06 17:00:42.434 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-2 - Shutdown initiated...
+2023-08-06 17:00:42.436 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-2 - Shutdown completed.
