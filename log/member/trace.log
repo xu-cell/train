@@ -406,3 +406,19 @@ java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
 2023-08-08 10:56:41.500 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m <==      Total: 1
 2023-08-08 10:56:41.566 INFO  com.xujiajun.train.common.aspect.LogAspect        :84   [32m                  [0;39m 返回结果: {"success":true}
 2023-08-08 10:56:41.566 INFO  com.xujiajun.train.common.aspect.LogAspect        :85   [32m                  [0;39m ------------- 结束 耗时：495 ms -------------
+2023-08-08 11:08:55.275 INFO  com.xujiajun.train.common.aspect.LogAspect        :48   [32m                  [0;39m ------------- 开始 -------------
+2023-08-08 11:08:55.276 INFO  com.xujiajun.train.common.aspect.LogAspect        :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
+2023-08-08 11:08:55.276 INFO  com.xujiajun.train.common.aspect.LogAspect        :50   [32m                  [0;39m 类名方法: com.xujiajun.train.member.controller.MemberController.sendCode
+2023-08-08 11:08:55.276 INFO  com.xujiajun.train.common.aspect.LogAspect        :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-08-08 11:08:55.278 INFO  com.xujiajun.train.common.aspect.LogAspect        :72   [32m                  [0;39m 请求参数: [{"mobile":"18781042205"}]
+2023-08-08 11:08:55.294 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2023-08-08 11:08:55.296 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==> Parameters: 18781042205(String)
+2023-08-08 11:08:55.310 TRACE c.x.t.member.mapper.MemberMapper.selectByExample  :143  [32m                  [0;39m <==    Columns: id, mobile
+2023-08-08 11:08:55.310 TRACE c.x.t.member.mapper.MemberMapper.selectByExample  :143  [32m                  [0;39m <==        Row: 1, 18781042205
+2023-08-08 11:08:55.310 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m <==      Total: 1
+2023-08-08 11:08:55.316 INFO  com.xujiajun.train.member.service.MemberService   :59   [32m                  [0;39m 手机号已经注册，未插入记录
+2023-08-08 11:08:55.316 INFO  com.xujiajun.train.member.service.MemberService   :63   [32m                  [0;39m 生成验证码，8888
+2023-08-08 11:08:55.317 INFO  com.xujiajun.train.member.service.MemberService   :65   [32m                  [0;39m 存储信息到短信表
+2023-08-08 11:08:55.318 INFO  com.xujiajun.train.member.service.MemberService   :67   [32m                  [0;39m 对接短信平台,发送短信
+2023-08-08 11:08:55.318 INFO  com.xujiajun.train.common.aspect.LogAspect        :84   [32m                  [0;39m 返回结果: {"success":true}
+2023-08-08 11:08:55.318 INFO  com.xujiajun.train.common.aspect.LogAspect        :85   [32m                  [0;39m ------------- 结束 耗时：43 ms -------------
