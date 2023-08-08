@@ -1,5 +1,8 @@
 package com.xujiajun.train.common.resp;
 
+/**
+ * @author xujj
+ */
 public class MemberLoginResp {
     private Long id;
 

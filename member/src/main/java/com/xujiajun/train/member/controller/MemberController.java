@@ -1,6 +1,8 @@
 package com.xujiajun.train.member.controller;
 
 import com.xujiajun.train.common.resp.CommonResp;
+import com.xujiajun.train.common.resp.MemberLoginResp;
+import com.xujiajun.train.member.req.MemberLoginReq;
 import com.xujiajun.train.member.req.MemberRegisterReq;
 import com.xujiajun.train.member.req.MemberSendCodeReq;
 import com.xujiajun.train.member.service.MemberService;
@@ -35,6 +37,12 @@ public class MemberController {
     public CommonResp<Long>sendCode(@Valid MemberSendCodeReq req) {
          memberService.sendCode(req);
          return new CommonResp<>();
+    }
+
+    @PostMapping("/login")
+    public CommonResp<MemberLoginResp>sendCode(@Valid MemberLoginReq req) {
+        memberService.login(req);
+        return new CommonResp<>();
     }
 
 

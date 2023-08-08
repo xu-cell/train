@@ -1,12 +1,15 @@
 package com.xujiajun.train.member.service;
 
-import cn.hutool.core.collection.CollUtil;
+import cn.hutool.core.bean.BeanUtil;
+import cn.hutool.core.util.ObjectUtil;
 import com.xujiajun.train.common.exception.BusinessException;
 import com.xujiajun.train.common.exception.BusinessExceptionEnum;
+import com.xujiajun.train.common.resp.MemberLoginResp;
 import com.xujiajun.train.common.util.SnowUtil;
 import com.xujiajun.train.member.domain.Member;
 import com.xujiajun.train.member.domain.MemberExample;
 import com.xujiajun.train.member.mapper.MemberMapper;
+import com.xujiajun.train.member.req.MemberLoginReq;
 import com.xujiajun.train.member.req.MemberRegisterReq;
 import com.xujiajun.train.member.req.MemberSendCodeReq;
 import org.slf4j.Logger;
@@ -31,11 +34,8 @@ public class MemberService {
 
     public Long register(MemberRegisterReq req) {
         String mobile = req.getMobile();
-        MemberExample memberExample = new MemberExample();
-        memberExample.createCriteria().andMobileEqualTo(mobile);
-
-        List<Member> list =  memberMapper.selectByExample(memberExample);
-        if(CollUtil.isNotEmpty(list)) {
+        Member memberDb = selectMember(mobile);
+        if(ObjectUtil.isNotNull(memberDb)) {
              throw new BusinessException(BusinessExceptionEnum.MEMBER_MOBILE_EXIST);
         }
 
@@ -48,10 +48,8 @@ public class MemberService {
 
     public void sendCode(MemberSendCodeReq req) {
         String mobile = req.getMobile();
-        MemberExample memberExample = new MemberExample();
-        memberExample.createCriteria().andMobileEqualTo(mobile);
-        List<Member> list =  memberMapper.selectByExample(memberExample);
-        if(CollUtil.isEmpty(list)) {
+        Member memberDb = selectMember(mobile);
+        if(ObjectUtil.isNull(memberDb)) {
             LOG.info("手机号未注册，插入一条记录");
             Member member = new Member();
             member.setId(SnowUtil.getSnowflakeNextId());
@@ -68,5 +66,36 @@ public class MemberService {
 
         LOG.info("对接短信平台,发送短信");
 
+    }
+
+    /**
+     * 登陆业务
+     * @param req
+     * @return
+     */
+    public MemberLoginResp login(MemberLoginReq req) {
+        // 从传入参数获取慧眼与验证码的封装类
+        String mobile = req.getMobile();
+        
+        // 根据手机号从数据库查询会员
+        Member memberDb = selectMember(mobile);
+
+        // 校验 手机号和验证码 不成功返回异常
+        if(ObjectUtil.isNull(memberDb)) {
+            throw new BusinessException(BusinessExceptionEnum.MEMBER_MOBILE_NOT_EXIST);
+        }
+        if(!"8888".equals(req.getCode())) {
+            throw new BusinessException(BusinessExceptionEnum.MEMBER_MOBILE_CODE_ERROR);
+        }
+
+        // 返回会员信息的封装类
+        return BeanUtil.copyProperties(memberDb, MemberLoginResp.class);
+    }
+
+    private Member selectMember(String mobile) {
+        MemberExample memberExample = new MemberExample();
+        memberExample.createCriteria().andMobileEqualTo(mobile);
+        List<Member> list =  memberMapper.selectByExample(memberExample);
+        return list.get(0);
     }
 }
