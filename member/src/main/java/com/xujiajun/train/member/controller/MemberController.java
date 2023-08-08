@@ -8,10 +8,7 @@ import com.xujiajun.train.member.req.MemberSendCodeReq;
 import com.xujiajun.train.member.service.MemberService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * @author xujj
@@ -28,19 +25,19 @@ public class MemberController {
     }
 
     @PostMapping("/register")
-    public CommonResp<Long>register(@Valid MemberRegisterReq req) {
+    public CommonResp<Long>register(@RequestBody @Valid MemberRegisterReq req) {
         long register = memberService.register(req);
         return new CommonResp<>(register);
     }
 
     @PostMapping("/send-code")
-    public CommonResp<Long>sendCode(@Valid MemberSendCodeReq req) {
+    public CommonResp<Long>sendCode(@RequestBody @Valid MemberSendCodeReq req) {
          memberService.sendCode(req);
          return new CommonResp<>();
     }
 
     @PostMapping("/login")
-    public CommonResp<MemberLoginResp>sendCode(@Valid MemberLoginReq req) {
+    public CommonResp<MemberLoginResp>sendCode(@RequestBody @Valid MemberLoginReq req) {
         memberService.login(req);
         return new CommonResp<>();
     }
