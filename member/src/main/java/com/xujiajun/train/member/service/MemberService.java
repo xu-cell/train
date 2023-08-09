@@ -5,6 +5,7 @@ import cn.hutool.core.util.ObjectUtil;
 import com.xujiajun.train.common.exception.BusinessException;
 import com.xujiajun.train.common.exception.BusinessExceptionEnum;
 import com.xujiajun.train.common.resp.MemberLoginResp;
+import com.xujiajun.train.common.util.JwtUtil;
 import com.xujiajun.train.common.util.SnowUtil;
 import com.xujiajun.train.member.domain.Member;
 import com.xujiajun.train.member.domain.MemberExample;
@@ -87,9 +88,12 @@ public class MemberService {
         if(!"8888".equals(req.getCode())) {
             throw new BusinessException(BusinessExceptionEnum.MEMBER_MOBILE_CODE_ERROR);
         }
-
+        // 生成JWT令牌返回给前端
+        MemberLoginResp memberLoginResp = BeanUtil.copyProperties(memberDb,MemberLoginResp.class);
+        String token = JwtUtil.createToken(memberDb.getId(),memberDb.getMobile());
+        memberLoginResp.setToken(token);
         // 返回会员信息的封装类
-        return BeanUtil.copyProperties(memberDb, MemberLoginResp.class);
+        return memberLoginResp;
     }
 
     private Member selectMember(String mobile) {

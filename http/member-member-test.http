@@ -11,7 +11,10 @@ Content-Type: application/x-www-form-urlencoded
 mobile=98765
 ###
 POST http://localhost:8000/member/member/login
-Content-Type: application/x-www-form-urlencoded
+Content-Type: application/json
 
-mobile=18781042204&code=8888
+{
+  "mobile":"18781042205",
+  "code":"8888"
+}
 
