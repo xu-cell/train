@@ -37,9 +37,9 @@ public class MemberController {
     }
 
     @PostMapping("/login")
-    public CommonResp<MemberLoginResp>sendCode(@RequestBody @Valid MemberLoginReq req) {
-        memberService.login(req);
-        return new CommonResp<>();
+    public CommonResp<MemberLoginResp>login(@RequestBody @Valid MemberLoginReq req) {
+        MemberLoginResp resp = memberService.login(req);
+        return new CommonResp<>(resp);
     }
 
 
