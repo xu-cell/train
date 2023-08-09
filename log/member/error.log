@@ -186,3 +186,5 @@ Caused by: java.lang.ClassNotFoundException: Cannot find class: com.xujiajun.tra
 	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
 	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:124)
 	... 44 common frames omitted
+2023-08-09 10:26:35.403 ERROR c.x.t.common.controller.ControllerExceptionHandler:64   [32m                  [0;39m 校验异常：手机号码格式错误
+2023-08-09 10:26:41.503 ERROR c.x.t.common.controller.ControllerExceptionHandler:64   [32m                  [0;39m 校验异常：手机号码格式错误
