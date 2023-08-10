@@ -1,1 +1,2 @@
 2023-08-10 20:44:35.645 ERROR c.x.t.common.controller.ControllerExceptionHandler:64   [32m                  [0;39m 校验异常：省份证号不能为空
+2023-08-10 20:45:31.793 ERROR c.x.t.common.controller.ControllerExceptionHandler:64   [32m                  [0;39m 校验异常：乘客类型不能为空
