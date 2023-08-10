@@ -11,6 +11,9 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.server.ServerWebExchange;
 import reactor.core.publisher.Mono;
 
+/**
+ * @author xujj
+ */
 @Component
 public class LoginMemberFilter implements Ordered, GlobalFilter {
 

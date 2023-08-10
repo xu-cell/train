@@ -652,3 +652,121 @@ Caused by: java.lang.ClassNotFoundException: Cannot find class: com.xujiajun.tra
 2023-08-09 10:29:17.551 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
 2023-08-09 10:29:17.552 INFO  c.xujiajun.train.member.config.MemberApplication  :24   [32m                  [0;39m 启动成功！！
 2023-08-09 10:29:17.552 INFO  c.xujiajun.train.member.config.MemberApplication  :25   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2023-08-09 10:29:21.320 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-08-09 10:29:21.359 INFO  c.xujiajun.train.member.config.MemberApplication  :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.7 with PID 31040 (D:\my_maven_test\train\member\target\classes started by xujj in D:\my_maven_test\train)
+2023-08-09 10:29:21.362 INFO  c.xujiajun.train.member.config.MemberApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-08-09 10:29:21.412 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-09 10:29:21.412 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-09 10:29:22.064 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=d6132ee8-1057-32a5-9df6-5b8dba617452
+2023-08-09 10:29:22.605 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-08-09 10:29:22.613 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-08-09 10:29:22.614 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-08-09 10:29:22.614 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-08-09 10:29:22.680 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-08-09 10:29:22.680 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1267 ms
+2023-08-09 10:29:23.347 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-08-09 10:29:24.594 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2023-08-09 10:29:24.632 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-08-09 10:29:24.650 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2023-08-09 10:29:25.859 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2023-08-09 10:29:25.867 INFO  c.xujiajun.train.member.config.MemberApplication  :57   [32m                  [0;39m Started MemberApplication in 6.205 seconds (process running for 7.001)
+2023-08-09 10:29:25.870 INFO  c.xujiajun.train.member.config.MemberApplication  :24   [32m                  [0;39m 启动成功！！
+2023-08-09 10:29:25.870 INFO  c.xujiajun.train.member.config.MemberApplication  :25   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2023-08-09 10:40:59.908 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-09 10:40:59.909 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-08-09 10:40:59.909 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2023-08-09 10:41:00.008 INFO  com.xujiajun.train.common.aspect.LogAspect        :48   [32m                  [0;39m ------------- 开始 -------------
+2023-08-09 10:41:00.009 INFO  com.xujiajun.train.common.aspect.LogAspect        :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
+2023-08-09 10:41:00.009 INFO  com.xujiajun.train.common.aspect.LogAspect        :50   [32m                  [0;39m 类名方法: com.xujiajun.train.member.controller.MemberController.sendCode
+2023-08-09 10:41:00.009 INFO  com.xujiajun.train.common.aspect.LogAspect        :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-08-09 10:41:00.069 INFO  com.xujiajun.train.common.aspect.LogAspect        :72   [32m                  [0;39m 请求参数: [{"mobile":"18781042205"}]
+2023-08-09 10:41:00.123 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2023-08-09 10:41:00.434 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@64fe876a
+2023-08-09 10:41:00.435 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2023-08-09 10:41:00.445 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2023-08-09 10:41:00.467 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==> Parameters: 18781042205(String)
+2023-08-09 10:41:00.500 TRACE c.x.t.member.mapper.MemberMapper.selectByExample  :143  [32m                  [0;39m <==    Columns: id, mobile
+2023-08-09 10:41:00.500 TRACE c.x.t.member.mapper.MemberMapper.selectByExample  :143  [32m                  [0;39m <==        Row: 1, 18781042205
+2023-08-09 10:41:00.502 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m <==      Total: 1
+2023-08-09 10:41:00.510 INFO  com.xujiajun.train.member.service.MemberService   :60   [32m                  [0;39m 手机号已经注册，未插入记录
+2023-08-09 10:41:00.510 INFO  com.xujiajun.train.member.service.MemberService   :64   [32m                  [0;39m 生成验证码，8888
+2023-08-09 10:41:00.511 INFO  com.xujiajun.train.member.service.MemberService   :66   [32m                  [0;39m 存储信息到短信表
+2023-08-09 10:41:00.511 INFO  com.xujiajun.train.member.service.MemberService   :68   [32m                  [0;39m 对接短信平台,发送短信
+2023-08-09 10:41:00.514 INFO  com.xujiajun.train.common.aspect.LogAspect        :84   [32m                  [0;39m 返回结果: {"success":true}
+2023-08-09 10:41:00.515 INFO  com.xujiajun.train.common.aspect.LogAspect        :85   [32m                  [0;39m ------------- 结束 耗时：508 ms -------------
+2023-08-09 10:41:01.253 INFO  com.xujiajun.train.common.aspect.LogAspect        :48   [32m                  [0;39m ------------- 开始 -------------
+2023-08-09 10:41:01.253 INFO  com.xujiajun.train.common.aspect.LogAspect        :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8001/member/member/login POST
+2023-08-09 10:41:01.253 INFO  com.xujiajun.train.common.aspect.LogAspect        :50   [32m                  [0;39m 类名方法: com.xujiajun.train.member.controller.MemberController.login
+2023-08-09 10:41:01.253 INFO  com.xujiajun.train.common.aspect.LogAspect        :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-08-09 10:41:01.256 INFO  com.xujiajun.train.common.aspect.LogAspect        :72   [32m                  [0;39m 请求参数: [{"code":"8888","mobile":"18781042205"}]
+2023-08-09 10:41:01.271 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2023-08-09 10:41:01.272 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==> Parameters: 18781042205(String)
+2023-08-09 10:41:01.295 TRACE c.x.t.member.mapper.MemberMapper.selectByExample  :143  [32m                  [0;39m <==    Columns: id, mobile
+2023-08-09 10:41:01.296 TRACE c.x.t.member.mapper.MemberMapper.selectByExample  :143  [32m                  [0;39m <==        Row: 1, 18781042205
+2023-08-09 10:41:01.296 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m <==      Total: 1
+2023-08-09 10:41:01.355 INFO  com.xujiajun.train.common.util.JwtUtil            :28   [32m                  [0;39m 开始生成JWT token，id：1，mobile：18781042205
+2023-08-09 10:41:01.552 INFO  com.xujiajun.train.common.util.JwtUtil            :43   [32m                  [0;39m 生成JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTE1NDg4NjEsIm1vYmlsZSI6IjE4NzgxMDQyMjA1IiwiaWQiOjEsImV4cCI6MTY5MTYzNTI2MSwiaWF0IjoxNjkxNTQ4ODYxfQ.eKn7USpn4dhY3l22E37iTJclwuOPN9ae2VtitSX0VVY
+2023-08-09 10:41:01.554 INFO  com.xujiajun.train.common.aspect.LogAspect        :84   [32m                  [0;39m 返回结果: {"content":{"id":1,"mobile":"18781042205","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTE1NDg4NjEsIm1vYmlsZSI6IjE4NzgxMDQyMjA1IiwiaWQiOjEsImV4cCI6MTY5MTYzNTI2MSwiaWF0IjoxNjkxNTQ4ODYxfQ.eKn7USpn4dhY3l22E37iTJclwuOPN9ae2VtitSX0VVY"},"success":true}
+2023-08-09 10:41:01.554 INFO  com.xujiajun.train.common.aspect.LogAspect        :85   [32m                  [0;39m ------------- 结束 耗时：301 ms -------------
+2023-08-09 10:45:29.743 INFO  com.xujiajun.train.common.aspect.LogAspect        :48   [32m                  [0;39m ------------- 开始 -------------
+2023-08-09 10:45:29.743 INFO  com.xujiajun.train.common.aspect.LogAspect        :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
+2023-08-09 10:45:29.744 INFO  com.xujiajun.train.common.aspect.LogAspect        :50   [32m                  [0;39m 类名方法: com.xujiajun.train.member.controller.MemberController.sendCode
+2023-08-09 10:45:29.744 INFO  com.xujiajun.train.common.aspect.LogAspect        :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-08-09 10:45:29.744 INFO  com.xujiajun.train.common.aspect.LogAspect        :72   [32m                  [0;39m 请求参数: [{"mobile":"18781042205"}]
+2023-08-09 10:45:30.006 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2023-08-09 10:45:30.007 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==> Parameters: 18781042205(String)
+2023-08-09 10:45:30.526 TRACE c.x.t.member.mapper.MemberMapper.selectByExample  :143  [32m                  [0;39m <==    Columns: id, mobile
+2023-08-09 10:45:30.526 TRACE c.x.t.member.mapper.MemberMapper.selectByExample  :143  [32m                  [0;39m <==        Row: 1, 18781042205
+2023-08-09 10:45:30.528 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m <==      Total: 1
+2023-08-09 10:45:30.528 INFO  com.xujiajun.train.member.service.MemberService   :60   [32m                  [0;39m 手机号已经注册，未插入记录
+2023-08-09 10:45:30.528 INFO  com.xujiajun.train.member.service.MemberService   :64   [32m                  [0;39m 生成验证码，8888
+2023-08-09 10:45:30.528 INFO  com.xujiajun.train.member.service.MemberService   :66   [32m                  [0;39m 存储信息到短信表
+2023-08-09 10:45:30.528 INFO  com.xujiajun.train.member.service.MemberService   :68   [32m                  [0;39m 对接短信平台,发送短信
+2023-08-09 10:45:30.529 INFO  com.xujiajun.train.common.aspect.LogAspect        :84   [32m                  [0;39m 返回结果: {"success":true}
+2023-08-09 10:45:30.529 INFO  com.xujiajun.train.common.aspect.LogAspect        :85   [32m                  [0;39m ------------- 结束 耗时：786 ms -------------
+2023-08-09 10:45:31.072 INFO  com.xujiajun.train.common.aspect.LogAspect        :48   [32m                  [0;39m ------------- 开始 -------------
+2023-08-09 10:45:31.073 INFO  com.xujiajun.train.common.aspect.LogAspect        :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8001/member/member/login POST
+2023-08-09 10:45:31.073 INFO  com.xujiajun.train.common.aspect.LogAspect        :50   [32m                  [0;39m 类名方法: com.xujiajun.train.member.controller.MemberController.login
+2023-08-09 10:45:31.073 INFO  com.xujiajun.train.common.aspect.LogAspect        :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-08-09 10:45:31.073 INFO  com.xujiajun.train.common.aspect.LogAspect        :72   [32m                  [0;39m 请求参数: [{"code":"8888","mobile":"18781042205"}]
+2023-08-09 10:45:31.097 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2023-08-09 10:45:31.099 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==> Parameters: 18781042205(String)
+2023-08-09 10:45:31.123 TRACE c.x.t.member.mapper.MemberMapper.selectByExample  :143  [32m                  [0;39m <==    Columns: id, mobile
+2023-08-09 10:45:31.124 TRACE c.x.t.member.mapper.MemberMapper.selectByExample  :143  [32m                  [0;39m <==        Row: 1, 18781042205
+2023-08-09 10:45:31.125 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m <==      Total: 1
+2023-08-09 10:45:31.125 INFO  com.xujiajun.train.common.util.JwtUtil            :28   [32m                  [0;39m 开始生成JWT token，id：1，mobile：18781042205
+2023-08-09 10:45:31.126 INFO  com.xujiajun.train.common.util.JwtUtil            :43   [32m                  [0;39m 生成JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTE1NDkxMzEsIm1vYmlsZSI6IjE4NzgxMDQyMjA1IiwiaWQiOjEsImV4cCI6MTY5MTYzNTUzMSwiaWF0IjoxNjkxNTQ5MTMxfQ._2_Ile8n0n_uAtnUQzfTGPAFl12z4qA4EjAfCDCkxo4
+2023-08-09 10:45:31.126 INFO  com.xujiajun.train.common.aspect.LogAspect        :84   [32m                  [0;39m 返回结果: {"content":{"id":1,"mobile":"18781042205","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTE1NDkxMzEsIm1vYmlsZSI6IjE4NzgxMDQyMjA1IiwiaWQiOjEsImV4cCI6MTY5MTYzNTUzMSwiaWF0IjoxNjkxNTQ5MTMxfQ._2_Ile8n0n_uAtnUQzfTGPAFl12z4qA4EjAfCDCkxo4"},"success":true}
+2023-08-09 10:45:31.126 INFO  com.xujiajun.train.common.aspect.LogAspect        :85   [32m                  [0;39m ------------- 结束 耗时：54 ms -------------
+2023-08-09 10:47:57.980 INFO  com.xujiajun.train.common.aspect.LogAspect        :48   [32m                  [0;39m ------------- 开始 -------------
+2023-08-09 10:47:57.980 INFO  com.xujiajun.train.common.aspect.LogAspect        :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
+2023-08-09 10:47:57.981 INFO  com.xujiajun.train.common.aspect.LogAspect        :50   [32m                  [0;39m 类名方法: com.xujiajun.train.member.controller.MemberController.sendCode
+2023-08-09 10:47:57.981 INFO  com.xujiajun.train.common.aspect.LogAspect        :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-08-09 10:47:57.981 INFO  com.xujiajun.train.common.aspect.LogAspect        :72   [32m                  [0;39m 请求参数: [{"mobile":"18781042205"}]
+2023-08-09 10:47:57.999 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2023-08-09 10:47:58.001 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==> Parameters: 18781042205(String)
+2023-08-09 10:47:58.021 TRACE c.x.t.member.mapper.MemberMapper.selectByExample  :143  [32m                  [0;39m <==    Columns: id, mobile
+2023-08-09 10:47:58.022 TRACE c.x.t.member.mapper.MemberMapper.selectByExample  :143  [32m                  [0;39m <==        Row: 1, 18781042205
+2023-08-09 10:47:58.022 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m <==      Total: 1
+2023-08-09 10:47:58.023 INFO  com.xujiajun.train.member.service.MemberService   :60   [32m                  [0;39m 手机号已经注册，未插入记录
+2023-08-09 10:47:58.024 INFO  com.xujiajun.train.member.service.MemberService   :64   [32m                  [0;39m 生成验证码，8888
+2023-08-09 10:47:58.024 INFO  com.xujiajun.train.member.service.MemberService   :66   [32m                  [0;39m 存储信息到短信表
+2023-08-09 10:47:58.024 INFO  com.xujiajun.train.member.service.MemberService   :68   [32m                  [0;39m 对接短信平台,发送短信
+2023-08-09 10:47:58.024 INFO  com.xujiajun.train.common.aspect.LogAspect        :84   [32m                  [0;39m 返回结果: {"success":true}
+2023-08-09 10:47:58.024 INFO  com.xujiajun.train.common.aspect.LogAspect        :85   [32m                  [0;39m ------------- 结束 耗时：44 ms -------------
+2023-08-09 10:47:58.665 INFO  com.xujiajun.train.common.aspect.LogAspect        :48   [32m                  [0;39m ------------- 开始 -------------
+2023-08-09 10:47:58.666 INFO  com.xujiajun.train.common.aspect.LogAspect        :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8001/member/member/login POST
+2023-08-09 10:47:58.666 INFO  com.xujiajun.train.common.aspect.LogAspect        :50   [32m                  [0;39m 类名方法: com.xujiajun.train.member.controller.MemberController.login
+2023-08-09 10:47:58.666 INFO  com.xujiajun.train.common.aspect.LogAspect        :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-08-09 10:47:58.667 INFO  com.xujiajun.train.common.aspect.LogAspect        :72   [32m                  [0;39m 请求参数: [{"code":"8888","mobile":"18781042205"}]
+2023-08-09 10:47:58.688 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2023-08-09 10:47:58.689 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==> Parameters: 18781042205(String)
+2023-08-09 10:47:58.707 TRACE c.x.t.member.mapper.MemberMapper.selectByExample  :143  [32m                  [0;39m <==    Columns: id, mobile
+2023-08-09 10:47:58.708 TRACE c.x.t.member.mapper.MemberMapper.selectByExample  :143  [32m                  [0;39m <==        Row: 1, 18781042205
+2023-08-09 10:47:58.708 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m <==      Total: 1
+2023-08-09 10:47:58.709 INFO  com.xujiajun.train.common.util.JwtUtil            :28   [32m                  [0;39m 开始生成JWT token，id：1，mobile：18781042205
+2023-08-09 10:47:58.709 INFO  com.xujiajun.train.common.util.JwtUtil            :43   [32m                  [0;39m 生成JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTE1NDkyNzgsIm1vYmlsZSI6IjE4NzgxMDQyMjA1IiwiaWQiOjEsImV4cCI6MTY5MTYzNTY3OCwiaWF0IjoxNjkxNTQ5Mjc4fQ.uiCB5-Z1D6JdqwiAXlN6SQt_9fkSwJ2tetFZ2bQv6As
+2023-08-09 10:47:58.710 INFO  com.xujiajun.train.common.aspect.LogAspect        :84   [32m                  [0;39m 返回结果: {"content":{"id":1,"mobile":"18781042205","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTE1NDkyNzgsIm1vYmlsZSI6IjE4NzgxMDQyMjA1IiwiaWQiOjEsImV4cCI6MTY5MTYzNTY3OCwiaWF0IjoxNjkxNTQ5Mjc4fQ.uiCB5-Z1D6JdqwiAXlN6SQt_9fkSwJ2tetFZ2bQv6As"},"success":true}
+2023-08-09 10:47:58.710 INFO  com.xujiajun.train.common.aspect.LogAspect        :85   [32m                  [0;39m ------------- 结束 耗时：45 ms -------------
+2023-08-09 10:50:12.054 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2023-08-09 10:50:12.063 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.

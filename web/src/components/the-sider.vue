@@ -1,8 +1,7 @@
 <template>
   <a-layout-sider width="200" style="background: #fff">
   <a-menu
-      v-model:selectedKeys="selectedKeys2"
-      v-model:openKeys="openKeys"
+      v-model:selectedKeys="selectedKeys"
       mode="inline"
       :style="{ height: '100%', borderRight: 0 }"
   >
