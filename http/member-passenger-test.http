@@ -16,3 +16,9 @@ GET http://localhost:8000/member/passenger/query-list?page=1&size=
 Content-Type: application/json
 token: {{token}}
 
+
+###
+
+DELETE http://localhost:8000/member/passenger/delete/1689634582254718976
+Content-Type: application/json
+token: {{token}}

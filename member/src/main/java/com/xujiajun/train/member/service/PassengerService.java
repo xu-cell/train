@@ -26,6 +26,11 @@ import java.util.List;
 public class PassengerService {
     @Autowired
     private PassengerMapper passengerMapper;
+
+    public  void deleteById(Long id) {
+        passengerMapper.deleteByPrimaryKey(id);
+    }
+
     public void save(PassengerSaveReq req) {
 
         DateTime now = new DateTime();
