@@ -42,5 +42,4 @@ public class MemberController {
         return new CommonResp<>(resp);
     }
 
-
 }
