@@ -4,6 +4,8 @@ import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.core.date.DateTime;
 import cn.hutool.core.util.ObjectUtil;
 import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
+import com.xujiajun.train.common.resp.PageResp;
 import com.xujiajun.train.common.util.SnowUtil;
 import com.xujiajun.train.member.domain.Passenger;
 import com.xujiajun.train.member.domain.PassengerExample;
@@ -36,16 +38,25 @@ public class PassengerService {
 
     }
 
-    public List<PassengerQueryResp> queryLisst(PassengerQueryReq req) {
+    public PageResp<PassengerQueryResp> queryList(PassengerQueryReq req) {
         PassengerExample passengerExample = new PassengerExample();
         PassengerExample.Criteria criteria = passengerExample.createCriteria();
         // 控制台查询 会员号会不为为空
         if(ObjectUtil.isNotNull(req.getMemberId())) {
             criteria.andMemberIdEqualTo(req.getMemberId());
         }
-        PageHelper.startPage(req.getPage(),req.getPageSize());
+        PageHelper.startPage(req.getPage(),req.getSize());
         List<Passenger> list = passengerMapper.selectByExample(passengerExample);
+        PageInfo<Passenger> pageinfo = new PageInfo<>(list);
 
-        return BeanUtil.copyToList(list, PassengerQueryResp.class);
+        List<PassengerQueryResp> passengerQueryResps = BeanUtil.copyToList(list, PassengerQueryResp.class);
+
+        PageResp<PassengerQueryResp> query = new PageResp<>();
+        query.setTotal(pageinfo.getTotal());
+        query.setList(passengerQueryResps);
+
+
+        return query;
+
     }
 }
