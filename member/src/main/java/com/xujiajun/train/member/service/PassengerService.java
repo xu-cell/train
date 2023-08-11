@@ -5,6 +5,7 @@ import cn.hutool.core.date.DateTime;
 import cn.hutool.core.util.ObjectUtil;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import com.xujiajun.train.common.context.LoginMemberContext;
 import com.xujiajun.train.common.resp.PageResp;
 import com.xujiajun.train.common.util.SnowUtil;
 import com.xujiajun.train.member.domain.Passenger;
@@ -29,10 +30,19 @@ public class PassengerService {
 
         DateTime now = new DateTime();
         Passenger passenger = BeanUtil.copyProperties(req, Passenger.class);
-        passenger.setId(SnowUtil.getSnowflakeNextId());
-        passenger.setCreateTime(now);
-        passenger.setUpdateTime(now);
-        passengerMapper.insert(passenger);
+        if(ObjectUtil.isNull(req.getId())) {
+            passenger.setMemberId(LoginMemberContext.getId());
+            passenger.setId(SnowUtil.getSnowflakeNextId());
+            passenger.setCreateTime(now);
+            passenger.setUpdateTime(now);
+            passengerMapper.insert(passenger);
+
+
+        } {
+            // 更新操作
+            passenger.setUpdateTime(new DateTime());
+            passengerMapper.updateByPrimaryKey(passenger);
+        }
 
 
 

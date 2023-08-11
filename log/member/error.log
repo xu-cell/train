@@ -811,3 +811,4 @@ java.lang.NullPointerException: Cannot read field "generatedClass" because "data
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2023-08-11 11:04:51.441 ERROR c.x.t.common.controller.ControllerExceptionHandler:64   [32m1691723091433r3l  [0;39m 校验异常：【每页条数】不能超过100

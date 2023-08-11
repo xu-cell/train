@@ -1540,3 +1540,170 @@ java.lang.NullPointerException: Cannot read field "generatedClass" because "data
 2023-08-11 11:03:02.308 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
 2023-08-11 11:03:02.308 INFO  c.xujiajun.train.member.config.MemberApplication  :24   [32m                  [0;39m 启动成功！！
 2023-08-11 11:03:02.308 INFO  c.xujiajun.train.member.config.MemberApplication  :25   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2023-08-11 11:03:08.298 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-08-11 11:03:08.329 INFO  c.xujiajun.train.member.config.MemberApplication  :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.7 with PID 8092 (D:\my_maven_test\train\member\target\classes started by xujj in D:\my_maven_test\train)
+2023-08-11 11:03:08.330 INFO  c.xujiajun.train.member.config.MemberApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-08-11 11:03:08.373 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-11 11:03:08.374 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-11 11:03:09.037 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=3fa219c7-8646-39e9-a519-8fef03e8f8ce
+2023-08-11 11:03:09.605 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-08-11 11:03:09.615 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-08-11 11:03:09.615 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-08-11 11:03:09.615 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-08-11 11:03:09.690 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-08-11 11:03:09.690 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1316 ms
+2023-08-11 11:03:10.277 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2023-08-11 11:03:10.418 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-08-11 11:03:11.642 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2023-08-11 11:03:11.695 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-08-11 11:03:11.717 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2023-08-11 11:03:12.946 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2023-08-11 11:03:12.961 INFO  c.xujiajun.train.member.config.MemberApplication  :57   [32m                  [0;39m Started MemberApplication in 6.267 seconds (process running for 7.105)
+2023-08-11 11:03:12.963 INFO  c.xujiajun.train.member.config.MemberApplication  :24   [32m                  [0;39m 启动成功！！
+2023-08-11 11:03:12.965 INFO  c.xujiajun.train.member.config.MemberApplication  :25   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2023-08-11 11:04:31.647 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-11 11:04:31.647 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-08-11 11:04:31.648 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2023-08-11 11:04:31.673 INFO  c.x.train.common.interceptor.MemberInterceptor    :26   [32m16917230716650et  [0;39m MemberInterceptor开始
+2023-08-11 11:04:31.674 INFO  c.x.train.common.interceptor.MemberInterceptor    :30   [32m16917230716650et  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTE3MTgyMzQsIm1vYmlsZSI6IjE4NzgxMDQyMjA1IiwiaWQiOjEsImV4cCI6MTY5MTgwNDYzNCwiaWF0IjoxNjkxNzE4MjM0fQ.3Ux7O3iKdbPH6AvW1__fH_sL1NTzMfKB8g-XIb3y8ao
+2023-08-11 11:04:31.857 INFO  com.xujiajun.train.common.util.JwtUtil            :64   [32m16917230716650et  [0;39m 根据token获取原始内容：{"mobile":"18781042205","id":1}
+2023-08-11 11:04:31.860 INFO  c.x.train.common.interceptor.MemberInterceptor    :32   [32m16917230716650et  [0;39m 当前登录会员：{"mobile":"18781042205","id":1}
+2023-08-11 11:04:31.894 INFO  c.x.train.common.interceptor.MemberInterceptor    :36   [32m16917230716650et  [0;39m MemberInterceptor结束
+2023-08-11 11:04:31.940 INFO  com.xujiajun.train.common.aspect.LogAspect        :48   [32m16917230716650et  [0;39m ------------- 开始 -------------
+2023-08-11 11:04:31.941 INFO  com.xujiajun.train.common.aspect.LogAspect        :49   [32m16917230716650et  [0;39m 请求地址: http://127.0.0.1:8001/member/passenger/query-list GET
+2023-08-11 11:04:31.942 INFO  com.xujiajun.train.common.aspect.LogAspect        :50   [32m16917230716650et  [0;39m 类名方法: com.xujiajun.train.member.controller.PassengerController.save
+2023-08-11 11:04:31.942 INFO  com.xujiajun.train.common.aspect.LogAspect        :51   [32m16917230716650et  [0;39m 远程地址: 127.0.0.1
+2023-08-11 11:04:31.981 INFO  com.xujiajun.train.common.aspect.LogAspect        :72   [32m16917230716650et  [0;39m 请求参数: [{"page":1,"size":1}]
+2023-08-11 11:04:32.092 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m16917230716650et  [0;39m HikariPool-1 - Starting...
+2023-08-11 11:04:33.358 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m16917230716650et  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@bd0c7ca
+2023-08-11 11:04:33.360 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m16917230716650et  [0;39m HikariPool-1 - Start completed.
+2023-08-11 11:04:33.368 DEBUG c.x.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m16917230716650et  [0;39m ==>  Preparing: SELECT count(0) FROM passenger WHERE (member_id = ?)
+2023-08-11 11:04:33.397 DEBUG c.x.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m16917230716650et  [0;39m ==> Parameters: 1(Long)
+2023-08-11 11:04:33.467 TRACE c.x.t.m.m.PassengerMapper.selectByExample_COUNT   :143  [32m16917230716650et  [0;39m <==    Columns: count(0)
+2023-08-11 11:04:33.468 TRACE c.x.t.m.m.PassengerMapper.selectByExample_COUNT   :143  [32m16917230716650et  [0;39m <==        Row: 2
+2023-08-11 11:04:33.468 DEBUG c.x.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m16917230716650et  [0;39m <==      Total: 1
+2023-08-11 11:04:33.478 DEBUG c.x.t.m.mapper.PassengerMapper.selectByExample    :137  [32m16917230716650et  [0;39m ==>  Preparing: select id, member_id, `name`, id_card, `type`, create_time, update_time from passenger WHERE ( member_id = ? ) LIMIT ?
+2023-08-11 11:04:33.478 DEBUG c.x.t.m.mapper.PassengerMapper.selectByExample    :137  [32m16917230716650et  [0;39m ==> Parameters: 1(Long), 1(Integer)
+2023-08-11 11:04:33.530 TRACE c.x.t.m.mapper.PassengerMapper.selectByExample    :143  [32m16917230716650et  [0;39m <==    Columns: id, member_id, name, id_card, type, create_time, update_time
+2023-08-11 11:04:33.532 TRACE c.x.t.m.mapper.PassengerMapper.selectByExample    :143  [32m16917230716650et  [0;39m <==        Row: 1689618872862380032, 1, John, 123, 1, 2023-08-10 20:45:05.491, 2023-08-10 20:45:05.491
+2023-08-11 11:04:33.533 DEBUG c.x.t.m.mapper.PassengerMapper.selectByExample    :137  [32m16917230716650et  [0;39m <==      Total: 1
+2023-08-11 11:04:33.548 INFO  com.xujiajun.train.common.aspect.LogAspect        :84   [32m16917230716650et  [0;39m 返回结果: {"content":{"list":[{"createTime":1691671505491,"id":1689618872862380032,"idCard":"123","memberId":1,"name":"John","type":"1","updateTime":1691671505491}],"total":2},"success":true}
+2023-08-11 11:04:33.548 INFO  com.xujiajun.train.common.aspect.LogAspect        :85   [32m16917230716650et  [0;39m ------------- 结束 耗时：1609 ms -------------
+2023-08-11 11:04:40.152 INFO  c.x.train.common.interceptor.MemberInterceptor    :26   [32m1691723080152u8a  [0;39m MemberInterceptor开始
+2023-08-11 11:04:40.152 INFO  c.x.train.common.interceptor.MemberInterceptor    :30   [32m1691723080152u8a  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTE3MTgyMzQsIm1vYmlsZSI6IjE4NzgxMDQyMjA1IiwiaWQiOjEsImV4cCI6MTY5MTgwNDYzNCwiaWF0IjoxNjkxNzE4MjM0fQ.3Ux7O3iKdbPH6AvW1__fH_sL1NTzMfKB8g-XIb3y8ao
+2023-08-11 11:04:40.153 INFO  com.xujiajun.train.common.util.JwtUtil            :64   [32m1691723080152u8a  [0;39m 根据token获取原始内容：{"mobile":"18781042205","id":1}
+2023-08-11 11:04:40.153 INFO  c.x.train.common.interceptor.MemberInterceptor    :32   [32m1691723080152u8a  [0;39m 当前登录会员：{"mobile":"18781042205","id":1}
+2023-08-11 11:04:40.153 INFO  c.x.train.common.interceptor.MemberInterceptor    :36   [32m1691723080152u8a  [0;39m MemberInterceptor结束
+2023-08-11 11:04:40.154 INFO  com.xujiajun.train.common.aspect.LogAspect        :48   [32m1691723080152u8a  [0;39m ------------- 开始 -------------
+2023-08-11 11:04:40.154 INFO  com.xujiajun.train.common.aspect.LogAspect        :49   [32m1691723080152u8a  [0;39m 请求地址: http://127.0.0.1:8001/member/passenger/query-list GET
+2023-08-11 11:04:40.154 INFO  com.xujiajun.train.common.aspect.LogAspect        :50   [32m1691723080152u8a  [0;39m 类名方法: com.xujiajun.train.member.controller.PassengerController.save
+2023-08-11 11:04:40.154 INFO  com.xujiajun.train.common.aspect.LogAspect        :51   [32m1691723080152u8a  [0;39m 远程地址: 127.0.0.1
+2023-08-11 11:04:40.155 INFO  com.xujiajun.train.common.aspect.LogAspect        :72   [32m1691723080152u8a  [0;39m 请求参数: [{"page":1,"size":2}]
+2023-08-11 11:04:40.663 DEBUG c.x.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1691723080152u8a  [0;39m ==>  Preparing: SELECT count(0) FROM passenger WHERE (member_id = ?)
+2023-08-11 11:04:40.665 DEBUG c.x.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1691723080152u8a  [0;39m ==> Parameters: 1(Long)
+2023-08-11 11:04:40.731 TRACE c.x.t.m.m.PassengerMapper.selectByExample_COUNT   :143  [32m1691723080152u8a  [0;39m <==    Columns: count(0)
+2023-08-11 11:04:40.732 TRACE c.x.t.m.m.PassengerMapper.selectByExample_COUNT   :143  [32m1691723080152u8a  [0;39m <==        Row: 2
+2023-08-11 11:04:40.732 DEBUG c.x.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1691723080152u8a  [0;39m <==      Total: 1
+2023-08-11 11:04:40.733 DEBUG c.x.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1691723080152u8a  [0;39m ==>  Preparing: select id, member_id, `name`, id_card, `type`, create_time, update_time from passenger WHERE ( member_id = ? ) LIMIT ?
+2023-08-11 11:04:40.733 DEBUG c.x.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1691723080152u8a  [0;39m ==> Parameters: 1(Long), 2(Integer)
+2023-08-11 11:04:40.801 TRACE c.x.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1691723080152u8a  [0;39m <==    Columns: id, member_id, name, id_card, type, create_time, update_time
+2023-08-11 11:04:40.802 TRACE c.x.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1691723080152u8a  [0;39m <==        Row: 1689618872862380032, 1, John, 123, 1, 2023-08-10 20:45:05.491, 2023-08-10 20:45:05.491
+2023-08-11 11:04:40.803 TRACE c.x.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1691723080152u8a  [0;39m <==        Row: 1689621684862193664, 1, Johni, 1234, 2, 2023-08-10 20:56:15.980, 2023-08-10 20:56:15.980
+2023-08-11 11:04:40.803 DEBUG c.x.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1691723080152u8a  [0;39m <==      Total: 2
+2023-08-11 11:04:40.804 INFO  com.xujiajun.train.common.aspect.LogAspect        :84   [32m1691723080152u8a  [0;39m 返回结果: {"content":{"list":[{"createTime":1691671505491,"id":1689618872862380032,"idCard":"123","memberId":1,"name":"John","type":"1","updateTime":1691671505491},{"createTime":1691672175980,"id":1689621684862193664,"idCard":"1234","memberId":1,"name":"Johni","type":"2","updateTime":1691672175980}],"total":2},"success":true}
+2023-08-11 11:04:40.804 INFO  com.xujiajun.train.common.aspect.LogAspect        :85   [32m1691723080152u8a  [0;39m ------------- 结束 耗时：650 ms -------------
+2023-08-11 11:04:51.433 INFO  c.x.train.common.interceptor.MemberInterceptor    :26   [32m1691723091433r3l  [0;39m MemberInterceptor开始
+2023-08-11 11:04:51.435 INFO  c.x.train.common.interceptor.MemberInterceptor    :30   [32m1691723091433r3l  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTE3MTgyMzQsIm1vYmlsZSI6IjE4NzgxMDQyMjA1IiwiaWQiOjEsImV4cCI6MTY5MTgwNDYzNCwiaWF0IjoxNjkxNzE4MjM0fQ.3Ux7O3iKdbPH6AvW1__fH_sL1NTzMfKB8g-XIb3y8ao
+2023-08-11 11:04:51.435 INFO  com.xujiajun.train.common.util.JwtUtil            :64   [32m1691723091433r3l  [0;39m 根据token获取原始内容：{"mobile":"18781042205","id":1}
+2023-08-11 11:04:51.435 INFO  c.x.train.common.interceptor.MemberInterceptor    :32   [32m1691723091433r3l  [0;39m 当前登录会员：{"mobile":"18781042205","id":1}
+2023-08-11 11:04:51.436 INFO  c.x.train.common.interceptor.MemberInterceptor    :36   [32m1691723091433r3l  [0;39m MemberInterceptor结束
+2023-08-11 11:04:51.441 ERROR c.x.t.common.controller.ControllerExceptionHandler:64   [32m1691723091433r3l  [0;39m 校验异常：【每页条数】不能超过100
+2023-08-11 11:04:51.443 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m1691723091433r3l  [0;39m Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors<EOL>Field error in object 'passengerQueryReq' on field 'size': rejected value [300]; codes [Max.passengerQueryReq.size,Max.size,Max.java.lang.Integer,Max]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [passengerQueryReq.size,size]; arguments []; default message [size],100]; default message [【每页条数】不能超过100]]
+2023-08-11 11:09:10.563 INFO  c.x.train.common.interceptor.MemberInterceptor    :26   [32m1691723350563nsm  [0;39m MemberInterceptor开始
+2023-08-11 11:09:10.563 INFO  c.x.train.common.interceptor.MemberInterceptor    :30   [32m1691723350563nsm  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTE3MTQ3NDIsIm1vYmlsZSI6IjE4NzgxMDQyMjA1IiwiaWQiOjEsImV4cCI6MTY5MTgwMTE0MiwiaWF0IjoxNjkxNzE0NzQyfQ.0St2zdPEe_Ohc-BYxbm_TEGgP9Wir8eBePEQh0ifN3Y
+2023-08-11 11:09:10.564 INFO  com.xujiajun.train.common.util.JwtUtil            :64   [32m1691723350563nsm  [0;39m 根据token获取原始内容：{"mobile":"18781042205","id":1}
+2023-08-11 11:09:10.564 INFO  c.x.train.common.interceptor.MemberInterceptor    :32   [32m1691723350563nsm  [0;39m 当前登录会员：{"mobile":"18781042205","id":1}
+2023-08-11 11:09:10.564 INFO  c.x.train.common.interceptor.MemberInterceptor    :36   [32m1691723350563nsm  [0;39m MemberInterceptor结束
+2023-08-11 11:09:10.565 INFO  com.xujiajun.train.common.aspect.LogAspect        :48   [32m1691723350563nsm  [0;39m ------------- 开始 -------------
+2023-08-11 11:09:10.565 INFO  com.xujiajun.train.common.aspect.LogAspect        :49   [32m1691723350563nsm  [0;39m 请求地址: http://127.0.0.1:8001/member/passenger/query-list GET
+2023-08-11 11:09:10.565 INFO  com.xujiajun.train.common.aspect.LogAspect        :50   [32m1691723350563nsm  [0;39m 类名方法: com.xujiajun.train.member.controller.PassengerController.save
+2023-08-11 11:09:10.566 INFO  com.xujiajun.train.common.aspect.LogAspect        :51   [32m1691723350563nsm  [0;39m 远程地址: 127.0.0.1
+2023-08-11 11:09:10.566 INFO  com.xujiajun.train.common.aspect.LogAspect        :72   [32m1691723350563nsm  [0;39m 请求参数: [{"page":1,"size":10}]
+2023-08-11 11:09:10.582 DEBUG c.x.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1691723350563nsm  [0;39m ==>  Preparing: SELECT count(0) FROM passenger WHERE (member_id = ?)
+2023-08-11 11:09:10.583 DEBUG c.x.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1691723350563nsm  [0;39m ==> Parameters: 1(Long)
+2023-08-11 11:09:10.599 TRACE c.x.t.m.m.PassengerMapper.selectByExample_COUNT   :143  [32m1691723350563nsm  [0;39m <==    Columns: count(0)
+2023-08-11 11:09:10.599 TRACE c.x.t.m.m.PassengerMapper.selectByExample_COUNT   :143  [32m1691723350563nsm  [0;39m <==        Row: 2
+2023-08-11 11:09:10.600 DEBUG c.x.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1691723350563nsm  [0;39m <==      Total: 1
+2023-08-11 11:09:10.600 DEBUG c.x.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1691723350563nsm  [0;39m ==>  Preparing: select id, member_id, `name`, id_card, `type`, create_time, update_time from passenger WHERE ( member_id = ? ) LIMIT ?
+2023-08-11 11:09:10.600 DEBUG c.x.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1691723350563nsm  [0;39m ==> Parameters: 1(Long), 10(Integer)
+2023-08-11 11:09:10.619 TRACE c.x.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1691723350563nsm  [0;39m <==    Columns: id, member_id, name, id_card, type, create_time, update_time
+2023-08-11 11:09:10.619 TRACE c.x.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1691723350563nsm  [0;39m <==        Row: 1689618872862380032, 1, John, 123, 1, 2023-08-10 20:45:05.491, 2023-08-10 20:45:05.491
+2023-08-11 11:09:10.620 TRACE c.x.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1691723350563nsm  [0;39m <==        Row: 1689621684862193664, 1, Johni, 1234, 2, 2023-08-10 20:56:15.980, 2023-08-10 20:56:15.980
+2023-08-11 11:09:10.621 DEBUG c.x.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1691723350563nsm  [0;39m <==      Total: 2
+2023-08-11 11:09:10.622 INFO  com.xujiajun.train.common.aspect.LogAspect        :84   [32m1691723350563nsm  [0;39m 返回结果: {"content":{"list":[{"createTime":1691671505491,"id":1689618872862380032,"idCard":"123","memberId":1,"name":"John","type":"1","updateTime":1691671505491},{"createTime":1691672175980,"id":1689621684862193664,"idCard":"1234","memberId":1,"name":"Johni","type":"2","updateTime":1691672175980}],"total":2},"success":true}
+2023-08-11 11:09:10.622 INFO  com.xujiajun.train.common.aspect.LogAspect        :85   [32m1691723350563nsm  [0;39m ------------- 结束 耗时：57 ms -------------
+2023-08-11 11:21:12.759 INFO  c.x.train.common.interceptor.MemberInterceptor    :26   [32m1691724072759usp  [0;39m MemberInterceptor开始
+2023-08-11 11:21:12.761 INFO  c.x.train.common.interceptor.MemberInterceptor    :30   [32m1691724072759usp  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTE3MTQ3NDIsIm1vYmlsZSI6IjE4NzgxMDQyMjA1IiwiaWQiOjEsImV4cCI6MTY5MTgwMTE0MiwiaWF0IjoxNjkxNzE0NzQyfQ.0St2zdPEe_Ohc-BYxbm_TEGgP9Wir8eBePEQh0ifN3Y
+2023-08-11 11:21:12.762 INFO  com.xujiajun.train.common.util.JwtUtil            :64   [32m1691724072759usp  [0;39m 根据token获取原始内容：{"mobile":"18781042205","id":1}
+2023-08-11 11:21:12.764 INFO  c.x.train.common.interceptor.MemberInterceptor    :32   [32m1691724072759usp  [0;39m 当前登录会员：{"mobile":"18781042205","id":1}
+2023-08-11 11:21:12.765 INFO  c.x.train.common.interceptor.MemberInterceptor    :36   [32m1691724072759usp  [0;39m MemberInterceptor结束
+2023-08-11 11:21:12.783 INFO  com.xujiajun.train.common.aspect.LogAspect        :48   [32m1691724072759usp  [0;39m ------------- 开始 -------------
+2023-08-11 11:21:12.784 INFO  com.xujiajun.train.common.aspect.LogAspect        :49   [32m1691724072759usp  [0;39m 请求地址: http://127.0.0.1:8001/member/passenger/query-list GET
+2023-08-11 11:21:12.785 INFO  com.xujiajun.train.common.aspect.LogAspect        :50   [32m1691724072759usp  [0;39m 类名方法: com.xujiajun.train.member.controller.PassengerController.save
+2023-08-11 11:21:12.786 INFO  com.xujiajun.train.common.aspect.LogAspect        :51   [32m1691724072759usp  [0;39m 远程地址: 127.0.0.1
+2023-08-11 11:21:12.786 INFO  com.xujiajun.train.common.aspect.LogAspect        :72   [32m1691724072759usp  [0;39m 请求参数: [{"page":1,"size":10}]
+2023-08-11 11:21:12.806 DEBUG c.x.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1691724072759usp  [0;39m ==>  Preparing: SELECT count(0) FROM passenger WHERE (member_id = ?)
+2023-08-11 11:21:12.807 DEBUG c.x.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1691724072759usp  [0;39m ==> Parameters: 1(Long)
+2023-08-11 11:21:12.822 TRACE c.x.t.m.m.PassengerMapper.selectByExample_COUNT   :143  [32m1691724072759usp  [0;39m <==    Columns: count(0)
+2023-08-11 11:21:12.824 TRACE c.x.t.m.m.PassengerMapper.selectByExample_COUNT   :143  [32m1691724072759usp  [0;39m <==        Row: 2
+2023-08-11 11:21:12.825 DEBUG c.x.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1691724072759usp  [0;39m <==      Total: 1
+2023-08-11 11:21:12.826 DEBUG c.x.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1691724072759usp  [0;39m ==>  Preparing: select id, member_id, `name`, id_card, `type`, create_time, update_time from passenger WHERE ( member_id = ? ) LIMIT ?
+2023-08-11 11:21:12.828 DEBUG c.x.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1691724072759usp  [0;39m ==> Parameters: 1(Long), 10(Integer)
+2023-08-11 11:21:12.843 TRACE c.x.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1691724072759usp  [0;39m <==    Columns: id, member_id, name, id_card, type, create_time, update_time
+2023-08-11 11:21:12.845 TRACE c.x.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1691724072759usp  [0;39m <==        Row: 1689618872862380032, 1, John, 123, 1, 2023-08-10 20:45:05.491, 2023-08-10 20:45:05.491
+2023-08-11 11:21:12.848 TRACE c.x.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1691724072759usp  [0;39m <==        Row: 1689621684862193664, 1, Johni, 1234, 2, 2023-08-10 20:56:15.980, 2023-08-10 20:56:15.980
+2023-08-11 11:21:12.849 DEBUG c.x.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1691724072759usp  [0;39m <==      Total: 2
+2023-08-11 11:21:12.850 INFO  com.xujiajun.train.common.aspect.LogAspect        :84   [32m1691724072759usp  [0;39m 返回结果: {"content":{"list":[{"createTime":1691671505491,"id":1689618872862380032,"idCard":"123","memberId":1,"name":"John","type":"1","updateTime":1691671505491},{"createTime":1691672175980,"id":1689621684862193664,"idCard":"1234","memberId":1,"name":"Johni","type":"2","updateTime":1691672175980}],"total":2},"success":true}
+2023-08-11 11:21:12.851 INFO  com.xujiajun.train.common.aspect.LogAspect        :85   [32m1691724072759usp  [0;39m ------------- 结束 耗时：68 ms -------------
+2023-08-11 11:29:39.083 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-08-11 11:29:39.105 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8001"]
+2023-08-11 11:29:39.106 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-08-11 11:29:39.109 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-08-11 11:29:39.111 WARN  org.apache.catalina.loader.WebappClassLoaderBase  :173  [32m                  [0;39m The web application [member] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
+2023-08-11 11:29:39.113 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
+2023-08-11 11:29:39.114 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8001"]
+2023-08-11 11:29:39.117 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2023-08-11 11:29:39.129 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2023-08-11 11:29:40.447 INFO  c.xujiajun.train.member.config.MemberApplication  :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.7 with PID 8092 (D:\my_maven_test\train\member\target\classes started by xujj in D:\my_maven_test\train)
+2023-08-11 11:29:40.447 INFO  c.xujiajun.train.member.config.MemberApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-08-11 11:29:40.636 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=3fa219c7-8646-39e9-a519-8fef03e8f8ce
+2023-08-11 11:29:40.726 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-08-11 11:29:40.728 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-08-11 11:29:40.728 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-08-11 11:29:40.728 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-08-11 11:29:40.769 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-08-11 11:29:40.769 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 320 ms
+2023-08-11 11:29:41.010 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2023-08-11 11:29:41.089 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-08-11 11:29:42.327 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2023-08-11 11:29:42.349 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-08-11 11:29:42.354 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2023-08-11 11:29:42.529 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-08-11 11:29:43.617 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2023-08-11 11:29:43.620 INFO  c.xujiajun.train.member.config.MemberApplication  :57   [32m                  [0;39m Started MemberApplication in 4.453 seconds (process running for 1597.764)
+2023-08-11 11:29:43.622 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-08-11 11:29:43.622 INFO  c.xujiajun.train.member.config.MemberApplication  :24   [32m                  [0;39m 启动成功！！
+2023-08-11 11:29:43.622 INFO  c.xujiajun.train.member.config.MemberApplication  :25   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2023-08-11 11:29:43.637 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8001"]
+2023-08-11 11:29:43.638 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-08-11 11:29:43.639 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
+2023-08-11 11:29:43.640 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8001"]
