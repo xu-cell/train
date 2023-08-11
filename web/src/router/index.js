@@ -3,6 +3,11 @@ import store from "@/store";
 import {notification} from "ant-design-vue";
 
 const routes = [
+  {
+    path: '/login',
+    component: () => import('../views/login.vue')
+
+  },
 
   {
     path: '/',
@@ -10,13 +15,23 @@ const routes = [
     component: () => import( '../views/main.vue'),
     meta: {
       loginRequire: true
-    }
+    },
+    children: [{
+      path: 'welcome',
+      component: () => import( '../views/main/welcome.vue'),
+    }, {
+      path: 'passenger',
+      component: () => import( '../views/main/passenger.vue'),
+      }
+
+    ]
+
   },
   {
-    path: '/login',
-    component: () => import('../views/login.vue')
+    path: '',
+    redirect: '/welcome'
+  },
 
-  }
 ]
 
 const router = createRouter({

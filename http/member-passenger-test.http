@@ -5,8 +5,8 @@ Content-Type: application/json
 token: {{token}}
 
 {
-  "memberId": "1113",
+  "memberId": "11134",
   "name": "Johni",
-  "idCard": "1234",
-  "type": "2"
+  "idCard": "12345",
+  "type": "1"
 }
